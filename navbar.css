@@ -1,0 +1,64 @@
+#navbardiv {
+  position: sticky;
+  top: 0px;
+}
+#navbar {
+  padding: 10px;
+  box-shadow: rgba(118, 232, 42, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+#childnavbar {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  /* border: 1px solid red; */
+  grid-template-columns: repeat(8, 1fr);
+}
+#childnavbar a {
+  text-decoration: none;
+  color: aliceblue;
+}
+#childnavbar p {
+  font-family: Avenirnextltpro, sans-serif;
+  color: #3b8fc2;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 600;
+}
+#childnavbar button {
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: #4091c4;
+  font-family: Avenirnextltpro, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  letter-spacing: 0.5px;
+  color: white;
+  padding: 15px 8px;
+}
+#childnavbar img {
+  width: 90%;
+  height: 100%;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #childnavbar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #childnavbar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* navbar complete */
+
