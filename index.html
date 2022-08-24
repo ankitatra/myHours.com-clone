@@ -7,6 +7,7 @@
     <title>Free Time Tracking for your Projects and Tasks | My Hours</title>
     <link rel="stylesheet" href="./navbar.css" />
     <link rel="stylesheet" href="./organizebody.css" />
+    <link rel="stylesheet" href="./styles/footer.css">
     <style></style>
   </head>
   <body>
@@ -108,11 +109,14 @@
       </div>
     </div>
     <!-- type fox image work done -->
+    <footer id="footer"></footer>
   </body>
 </html>
 
 <script type="module">
   import navbar from "./navbar.js";
-
   document.getElementById("navbardiv").innerHTML = navbar();
+
+  import footer from './components/footer.js';
+  document.getElementById('footer').innerHTML = footer();
 </script>
