@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-    
+    <div id="container">
+        <div id="image">
+            <img src="https://allhoursproductb0b1.blob.core.windows.net/static-files/myhours_logo_icon.svg" alt="">
+        </div>
+
+        <div id="formdiv">
+            <form action="">
+                <h3>Welcome to My Hours</h3>
+                <label for="name"> <b> FULL NAME</b></label><br>
+                <label for="" id="para">So we know what to call you in the app</label>
+                <div>
+                    <input type="text" id="name">
+                </div>
+
+                <label for="email"> <b>EMAIL</b> </label><br>
+                <label for="" id="para">You will use this email to login</label>
+                <div>
+                    <input type="email" id="email">
+                </div>
+                <label for="password"> <b>PASSWORD</b> </label>
+                <div>
+                    <input type="Password" 
+                    id="password" placeholder="">
+                    <p id="warn1" style="line-height: 0;font-size: small;color: rgb(218, 14, 14);"></p>
+                </div>
+                <p id="term">By signing up you agree to the <a href="#">Terms of Use</a> </p>
+                <!-- <div id="btn"> -->
+
+                    <button id="btn" >Next</button>
+                <!-- </div> -->
+            </form>
+        </div>
+    </div>
 </body>
 </html>
+<script src="signup.js"></script>
