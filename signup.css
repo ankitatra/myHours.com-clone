@@ -37,7 +37,7 @@ input{
     font-size: large;
 
 }
-#input::hover{
+#input:hover{
     border: 2px snow #3b8fc2 ;
 }
 #formdiv div {
@@ -64,7 +64,7 @@ label{
     margin-left: 40%;
     /* color: white; */
     /* background-color: rgb(45, 95, 245); */
-    padding: 15px;
+    padding: 15px 23px;
     font-size: large;
     border-radius: 6px;
     border: 0px;
