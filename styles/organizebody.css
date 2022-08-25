@@ -1,0 +1,468 @@
+/* organize to button work start */
+#organize {
+  text-align: center;
+  font-family: Avenirnextltpro, sans-serif;
+  color: #212529;
+  font-size: 80px;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 140px;
+}
+#coordinate {
+  width: 75%;
+  font-family: "Avenir Next", sans-serif;
+  color: #375d75;
+  font-size: 28px;
+  line-height: 1.5;
+  margin: auto;
+  text-align: center;
+}
+#getstarted {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+#getstarted button {
+  margin-bottom: 40px;
+  padding: 18px 34px;
+  border-radius: none;
+  border-radius: 5px;
+  background-color: #3b8fc2;
+  font-size: 18px;
+  border: none;
+  color: white;
+  font-family: Avenirnextltpro, sans-serif;
+}
+#getstarted button:hover {
+  background-color: #3e789c;
+}
+
+/* organize to button work end */
+
+#lunchthenewwbsite {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#lunchthenewwbsite > img {
+  width: 70%;
+  height: 100%;
+}
+/*  */
+#trusted {
+  margin-top: 80px;
+  color: #2e4756;
+  font-size: 30px;
+  font-family: Avenirnextltpro, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/*  */
+#captera {
+  /* border: 1px solid red; */
+  width: 50%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+#captera img {
+  width: 60%;
+}
+/*  */
+#typefox {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+#typefox img {
+  width: 60%;
+}
+
+/* type of image setting complete */
+
+#Coordinate_your {
+  /* border: 1px solid red; */
+  width: 85%;
+  margin: 170px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 32%54%);
+  grid-template-rows: repeat(1, 390px);
+  column-gap: 180px;
+}
+/* #Coordinate_your > div {
+  border: 1px solid rgb(0, 13, 255);
+} */
+#Coordinate_your_desc {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+/* #Coordinate_your_desc > div {
+  border: 1px solid sienna;
+} */
+#Coordinate_your img {
+  width: 100%;
+}
+.para1 {
+  font-family: "Avenir Next", sans-serif;
+  color: #375d75;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.para2 {
+  font-family: Avenirnextltpro, sans-serif;
+  line-height: 1.2;
+  color: #212529;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.para3 {
+  font-family: "Avenir Next", sans-serif;
+  color: #375d75;
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: italic;
+  font-weight: 500;
+  text-align: left;
+}
+
+/* Coordinate your team,work end */
+#Trackyourwork {
+  width: 85%;
+  margin: 170px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 54%32%);
+  grid-template-rows: repeat(1, 390px);
+  column-gap: 180px;
+}
+#Trackyourworkpara {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+#Trackyourwork img {
+  width: 100%;
+}
+
+/* Create great-looking end */
+
+#myhourworks {
+  width: 80%;
+  margin: auto;
+  font-family: "Avenir Next", sans-serif;
+  color: #3b8fc2;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#flexibletool {
+  /* border: 1px solid red; */
+  width: 75%;
+  margin: auto;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  text-align: center;
+  gap: 30px 30px;
+}
+#flexibletool > h1 {
+  font-family: "Avenir Next", sans-serif;
+  color: #375d75;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+#flexibletool > div {
+  /* border: 1px solid blue; */
+  padding: 0px 30px;
+  line-height: 30px;
+}
+#flexibletool h3 {
+  font-family: "Avenir Next", sans-serif;
+  color: #375d75;
+  font-size: 27px;
+  font-weight: 600;
+}
+#flexibletool p {
+  font-family: "Avenir Next", sans-serif;
+  color: #375d75;
+  font-size: 19px;
+}
+#flexibletool span > p {
+  color: #3b8fc2;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+#biilingmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#biilingmore > span > p {
+  font-size: 25px;
+}
+#flexibletoolheader {
+  font-family: "Avenir Next", sans-serif;
+  color: #375d75;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 140px;
+}
+
+/* biilingmore end  */
+
+#MyHourshas h2 {
+  font-family: "Avenir Next", sans-serif;
+  color: #375d75;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+#helpedline {
+  font-family: "Avenir Next", sans-serif;
+  color: #212529;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+.helpedline {
+  text-decoration: underline;
+}
+#Easytracking {
+  /* border: 1px solid red; */
+  width: 75%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px 30px;
+}
+
+#Easytracking p {
+  font-family: "Avenir Next", sans-serif;
+  color: #212529;
+  font-size: 18px;
+  line-height: 1.3;
+}
+#Easytracking h3 {
+  font-style: italic;
+  font-family: "Avenir Next", sans-serif;
+}
+#Easytracking span {
+  border-radius: 5px 10px;
+  background-image: radial-gradient(
+    circle farthest-corner at 0 0,
+    rgba(41, 186, 96, 0.5),
+    rgba(190, 241, 209, 0.8)
+  );
+}
+#qustions {
+  margin: 170px auto;
+  text-align: center;
+}
+#qustions h2 {
+  width: auto;
+  margin-bottom: 20px;
+  font-family: "Avenir Next", sans-serif;
+  color: #375d75;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+#qustions p {
+  font-family: "Avenir Next", sans-serif;
+  color: #212529;
+  font-size: 18px;
+  line-height: 1.5;
+}
+#qustions span {
+  text-decoration: underline;
+  margin-right: 15px;
+  margin-left: 5px;
+  color: #3b8fc2;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+}
+#qustionsspan img {
+  width: 1%;
+}
+#wasteno {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%39%);
+  grid-template-rows: repeat(1, 300px);
+  gap: 40px 40px;
+}
+#wastenotime {
+  background-color: rgb(248, 250, 251);
+}
+#needmoreinfo {
+  background-color: rgb(250, 249, 247);
+}
+#wasteno > div {
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+
+#wastenotime {
+  text-align: center;
+}
+#wastenotime h2 {
+  font-family: "Avenir Next", sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  color: #375d75;
+}
+#wastenotime p,
+#needmoreinfo p {
+  font-family: Avenirnextltpro, sans-serif;
+  line-height: 25px;
+}
+#wastenotime span {
+  text-decoration: underline;
+}
+#needmoreinfo h2 {
+  font-family: "Avenir Next", sans-serif;
+  font-size: 2em;
+
+  color: #375d75;
+}
+
+#needmoreinfo button {
+  margin-bottom: 40px;
+  padding: 18px 34px;
+  border-radius: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 18px;
+  border: 0.5px solid black;
+  background-color: rgb(250, 249, 247);
+  font-family: Avenirnextltpro, sans-serif;
+}
+#needmoreinfo button:hover {
+  background-color: #3b8fc2;
+  color: white;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #lunchthenewwbsite > img {
+    width: 70%;
+    height: 100%;
+  }
+  /*  */
+  #captera {
+    width: 75%;
+  }
+  /*  */
+  #typefox {
+    width: 90%;
+  }
+  /*  */
+  #typefox img {
+    width: 80%;
+  }
+  /*  */
+  #Coordinate_your,
+  #Trackyourwork {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #Trackyourworkpara,
+  #Coordinate_your_desc {
+    row-gap: 40px;
+  }
+  /*  */
+  #flexibletool {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+  /*  */
+  #MyHourshas {
+    width: 80%;
+    margin: auto;
+  }
+  /*  */
+  #Easytracking {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /*  */
+  #qustions {
+    width: 80%;
+    margin: auto;
+  }
+  #wasteno{
+    margin-top: 50px;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 30px;
+  }
+  #organize {
+    padding: 20px;
+    font-size: 60px;
+  }
+}
+
+/* Trackyourwork end  */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #lunchthenewwbsite > img {
+    width: 70%;
+    height: 100%;
+  }
+  /*  */
+  #captera {
+    width: 90%;
+  }
+  /*  */
+  #typefox {
+    width: 90%;
+  }
+  #typefox img {
+    width: 80%;
+  }
+  #Coordinate_your,
+  #Trackyourwork {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #Trackyourworkpara,
+  #Coordinate_your_desc {
+    row-gap: 40px;
+  }
+  /*  */
+  #flexibletool {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, auto);
+  }
+  /*  */
+  #MyHourshas {
+    width: 80%;
+    margin: auto;
+  }
+  /*  */
+  #Easytracking {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #qustions {
+    width: 80%;
+    margin: auto;
+  }
+  #wasteno{
+    margin-top: 50px;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 130px;
+  }
+  #organize {
+    padding: 20px;
+    font-size: 50px;
+  }
+}
