@@ -22,10 +22,10 @@ function navbar() {
         <a href=""><p>Support</p></a>
       </div>
       <div>
-        <a href=""><p>Sign in</p></a>
+        <a href="./login.html"><p>Sign in</p></a>
       </div>
       <div>
-        <button><a href="">Get My Hours Free</a></button>
+        <button><a href="./signup.html">Get My Hours Free</a></button>
       </div>
     </div>
   </div>`;

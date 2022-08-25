@@ -6,8 +6,6 @@
   padding: 10px;
   box-shadow: rgba(118, 232, 42, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  position: sticky;
-  top: 0px;
   background-color: white;
 }
 #childnavbar {
@@ -16,6 +14,13 @@
   display: grid;
   /* border: 1px solid red; */
   grid-template-columns: repeat(8, 1fr);
+  text-align: center;
+}
+#childnavbar > div {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #childnavbar a {
   text-decoration: none;
@@ -61,4 +66,3 @@
 }
 
 /* navbar complete */
-
