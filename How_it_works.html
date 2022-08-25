@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How it works</title>
+</head>
+<style>
+    #first{
+        margin-top:15vw;
+    }
+    #first>h1{
+        margin-bottom: 20px;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 72px;
+    font-weight:200;
+    text-align: center;
+    }
+    #first>h2{margin-bottom: 20px;
+    font-family: 'Avenir Next',sans-serif;
+    color: #375d75;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    }
+    #second{
+        margin-top: 5vw;
+    }
+
+    #second>p{margin-top: 20px;
+    margin-bottom: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #375d75;
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: normal;
+    }
+    .third{
+        /* border: 1px solid red; */
+        height:12vh;
+        width:97vw;
+        text-align: center;
+    }
+    .third>button{
+        background-color:#3D90C2;
+        width:25%;
+        height:100%;
+        border: 0;
+        border-radius:5px;
+        color:white;
+        font-size: larger;
+    }
+    .third>button:hover{
+        background-color: #397294;
+    }
+    #fourth{
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        margin-top:25vh;
+        margin-left: 15vw;
+        /* border: 1px solid red; */
+        height:95vh;
+        width:70vw;
+    }
+    #fifth{
+        height:50vh;
+        width:60vw;
+        /* border: 1px solid red; */
+        margin-left: 20vw;
+        margin-top:25vh;
+    }
+    #fifth>h2{
+     margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 34px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #fifth>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #sixth{
+        height:100vh;
+        width:80vw;
+        /* border:1px solid red; */
+        border-radius: 2%;
+        margin-left: 10vw;
+        margin-top:-15vh;
+    }
+    #sixth>img{
+        height:100%;
+        width:100%;
+    }
+    #seventh{
+        height:50vh;
+        width:60vw;
+        /* border: 1px solid red; */
+        margin-left: 20vw;
+        margin-top:25vh;
+    }
+    #seventh>h2{
+     margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 34px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #seventh>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #eighth{
+        height:100vh;
+        width:80vw;
+        /* border:1px solid red; */
+        border-radius: 2%;
+        margin-left: 10vw;
+        margin-top:-15vh;
+    }
+    #eighth>img{
+        height:100%;
+        width:100%;
+    }
+    #ninth{
+        height:50vh;
+        width:60vw;
+        /* border: 1px solid red; */
+        margin-left: 20vw;
+        margin-top:25vh;
+    }
+    #ninth>h2{
+     margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 34px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #ninth>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #tenth{
+        height:100vh;
+        width:80vw;
+        /* border:1px solid red; */
+        border-radius: 2%;
+        margin-left: 10vw;
+        margin-top:-15vh;
+    }
+    #tenth>img{
+        height:100%;
+        width:100%;
+    }
+    #eleventh{
+        height:50vh;
+        width:58vw;
+        /* border: 1px solid red; */
+        margin-left: 20vw;
+        margin-top:25vh;
+    }
+    #eleventh>h2{
+     margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 34px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #eleventh>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #twelvth{
+        height:100vh;
+        width:80vw;
+        /* border:1px solid red; */
+        border-radius: 2%;
+        margin-left: 10vw;
+        margin-top:-15vh;
+    }
+    #twelvth>img{
+        height:100%;
+        width:100%;
+    }
+    #fourteen{
+        height:50vh;
+        width:60vw;
+        /* border: 1px solid red; */
+        margin-left: 20vw;
+        margin-top:25vh;
+    }
+    #fourteen>h2{
+     margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 34px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #fourteen>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #fifteen{
+        height:100vh;
+        width:80vw;
+        /* border:1px solid red; */
+        border-radius: 2%;
+        margin-left: 10vw;
+        margin-top:-15vh;
+    }
+    #fifteen>img{
+        height:100%;
+        width:100%;
+    }
+   
+</style>
+<style>
+     #sixteen{
+        height:50vh;
+        width:60vw;
+        /* border: 1px solid red; */
+        margin-left: 20vw;
+        margin-top:25vh;
+    }
+    #sixteen>h2{
+     margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 30px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #sixteen>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #seventeen{
+        height:100vh;
+        width:80vw;
+        /* border:1px solid red; */
+        border-radius: 2%;
+        margin-left: 10vw;
+        margin-top:-15vh;
+    }
+    #seventeen>img{
+        height:100%;
+        width:100%;
+    }
+    #eighteen{
+        height:100vh;
+        width:80vw;
+       
+        /* border:1px solid red; */
+        display: flex;
+        margin-top:25vh;
+        margin-left:9vw;
+    }
+    #eighteen>div{
+        /* border: 1px solid blue; */
+        height:100%;
+        width:50%;
+    }
+    #eighteen1{
+        height:50%;
+        width: 80%;
+        /* border: 1px solid green; */
+        margin-top: 25%;
+        margin-left:10%;
+    }
+    #eighteen1>h2{
+     margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 30px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #eighteen1>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #eighteen>div>img{
+        width:100%
+    }
+    #nineteen{
+        height:100vh;
+        width:80vw;
+        /* border:1px solid red;  */
+        display: flex;
+        margin-top:20vh;
+        margin-left:9vw;
+    }
+    #nineteen>div:nth-child(1){
+        /* border: 1px solid blue; */
+        height:100%;
+        width:60%;
+    }
+    #nineteen>div:nth-child(2){
+        /* border: 1px solid blue; */
+        height:100%;
+        width:40%;
+    }
+    #nineteen1{
+        height:60%;
+        width: 100%;
+        /* border: 1px solid green; */
+        margin-top:35%;
+        /* margin-left:10%; */
+    }
+    #nineteen1>h2{
+     margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 30px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #nineteen1>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #nineteen>div>img{
+        width:100%;
+        height: 100%;
+    }
+    #twenty{
+        height:70vh;
+        width:80vw;
+        /* border:1px solid red;  */
+        display: flex;
+        margin-top:25vh;
+        margin-left:9vw;
+    }
+    #twenty>div:nth-child(1){
+        /* border: 1px solid blue; */
+        height:100%;
+        width:60%;
+    }
+    #twenty>div:nth-child(2){
+        /* border: 1px solid blue; */
+        height:100%;
+        width:40%;
+    }
+    #twenty1{
+        height:60%;
+        width: 100%;
+        /* border: 1px solid green; */
+        margin-top:20%;
+        margin-left:2%;
+    }
+    #twenty1>h2{
+     margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 30px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #twenty1>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #twenty>div>img{
+        width:100%;
+        height: 100%;
+    }
+    #twentyone{
+        height:70vh;
+        width:80vw;
+        /* border:1px solid red;  */
+        display: flex;
+        margin-top:25vh;
+        margin-left:9vw;
+    }
+    #twentyone>div:nth-child(1){
+        /* border: 1px solid blue; */
+        height:100%;
+        width:60%;
+    }
+    #twentyone>div:nth-child(2){
+        /* border: 1px solid blue; */
+        height:100%;
+        width:40%;
+    }
+    #twentyone1{
+        height:60%;
+        width: 100%;
+        /* border: 1px solid green; */
+        margin-top:20%;
+        margin-left:2%;
+    }
+    #twentyone1>h2{
+     margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 30px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #twentyone1>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #twentyone>div>img{
+        width:100%;
+        height: 100%;
+    }
+    #twentytwo{
+        height:60vh;
+        width:80vw;
+        /* border:1px solid red;  */
+        display: flex;
+        margin-top:25vh;
+        margin-left:9vw;
+    }
+    #twentytwo>div{
+        height:100%;
+        width:45%;
+        margin: auto;
+        /* border: 1px solid red; */
+    }
+    #twentytwo1{
+        height:80%;
+        width: 90%;
+        /* border: 1px solid green; */
+        margin-top:10%;
+        margin-left:2%;
+    }
+    #twentytwo1>h2{
+        margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 30px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #twentytwo1>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #twentytwo2{
+        height:80%;
+        width: 90%;
+        /* border: 1px solid green; */
+        margin-top:10%;
+        margin-left:2%;
+    }
+    #twentytwo2>h2{
+        margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 30px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    }
+    #twentytwo2>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    }
+    #twentythree{
+        height:50vh;
+        width:80vw;
+        /* border:1px solid red;  */
+        display: flex;
+        margin-top:-5vh; 
+        margin-left:9vw;
+    }
+    #twentythree>div{
+        width:45%;
+        height:100%;
+        margin: auto;
+
+    }
+    #twentythree>div>img{
+        width: 100%;
+        height: 100%;
+    }
+    #twentyfour{
+        height:26vh;
+        width:13vw;
+        /* border: 1px solid red; */
+        margin-left: 40vw;
+        margin-top: 30vh;
+    }
+    #twentyfour>img{
+        width: 100%;
+        height: 100%;
+    }
+    #twentyfive{
+        height:40vh;
+        width:70vw;
+        /* border:1px solid red ; */
+        margin-top:5vh;
+        margin-left:15vw;
+    }
+    #twentyfive>h2{
+        margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #212529;
+    font-size: 30px;
+    line-height: 33.6px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: underline ;
+    }
+    #twentyfive>p{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: center;
+    
+    }
+    #twentyfive>p>span{
+        margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #212529;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: underline;
+    
+    }
+    #twentysix{
+        height:50vh;
+        width:70vw;
+        /* border:1px solid red; */
+        text-align: center;
+        margin-left:15vw;
+    }
+    #twentysix>h1{
+        text-decoration: underline;
+        color:#375D75;
+        font-size:300%;
+    }
+    #twentysix>h1:hover{
+        text-decoration:none;
+        /* color:#718C9D */
+    }
+    #twentysix>p{
+        color: #375D75;
+        font-size:300%;
+
+    }
+    #twentyseven{
+        height:40vh;
+        width:55vw;
+        /* border: 1px solid red; */
+        text-align: center;
+        margin-top: 30vh;
+        margin-left: 25vw;
+    }
+    #twentyseven>p:nth-child(1){
+        color: #375D75;
+        font-size:200%;
+    }
+    #twentyseven>p:nth-child(2){
+        /* color: #375D75; */
+        font-size:140%;
+        text-align: left;
+    }
+    #twentyeight{
+        height:10vh;
+        width:60vw;
+        display: flex;
+        /* border:1px solid red; */
+        margin-left:25vw;
+        margin-top:-15vh;
+        text-align: center;
+        color:#3D90C2;
+        font-size: large;
+    }
+    #twentyeight>div>img{
+        /* border:1px solid red; */
+        padding-top:5vh;
+        padding-left: 5vh;
+    }
+</style>
+<body>
+    <div id="first">
+       <h1>How it works</h1> 
+       <h2>& why you should switch to My Hours</h2>
+    </div>
+    <div id="second">
+        <p>Time tracking was a pain. We fixed it and made time tracking worth the effort. My Hours is easy to use and gets the most out of your data with powerful reporting. Teams that use My Hours are more productive, efficient and organized.</p>
+    </div>
+    <div class="third">
+        <button>Get Started - it's Free</button> 
+    </div>
+    <div id="fourth">
+        <iframe width="100%"
+        height="100%"
+        src="https://www.youtube.com/embed/VpMysclixyQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div id="fifth">
+        <h2>Organize your work with projects and tasks</h2>
+        <p>Breaking down your work into projects and tasks is done with a few keystrokes. Prioritize tasks, add details and assign them to your team to complete. Set up an estimated budget on a project or task level.</p>
+    </div>
+    <div id="sixth">
+        <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fd7198fa6df4249877e6d5b_HIW-1(1).png">
+    </div>
+    <div id="seventh">
+        <h2>Set flexible billable rates and manage rate changes</h2>
+        <p>Every client, project, task and team member can be billed with a custom rate, but with smart defaults. And, when rates change, you decide how it applies to your past work.</p>
+    </div>
+    <div id="eighth">
+        <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/60c3106b6d15b4476d545c47_Project%20billing.png">
+    </div>
+    <div id="ninth">
+        <h2>Track your time working with all the details</h2>
+        <p>Tracking work time is more than a few fields. Add styled notes to your logs, tag with custom keywords, attach files and enter expenses. With keyboard shortcuts, you can do it in no-time.</p>
+    </div>
+    <div id="tenth">
+        <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/61693180d0c70441fdcc29cd_Timesheet%20with%20timer-p-1080.png">
+    </div>
+    <div id="eleventh">
+        <h2>Dazzle your clients with custom reports</h2>
+        <p>No more one-style-fits-all reports. Go beyond filters and set up reports the way you or your clients want them, without having to retreat back to Excel.</p>
+    </div>
+    <div id="twelvth">
+        <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fd71990c1a06b2e03f1be70_HIW-4(1).png">
+    </div>
+    <div id="fourteen">
+        <h2>Look at the time spent from every angle</h2>
+        <p>Fancy dashboards are not enough and with My Hours you can calculate your profit, generate real-time pivot tables or download a simple weekly timesheet.</p>
+    </div>
+    <div id="fifteen">
+        <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/61692c9dbe4680c6916e960b_time-analytics.png">
+    </div>
+    <div id="sixteen">
+        <h2>Approve or comment on your team’s time logs  </h2>
+        <p>Going through every timesheet is a hassle. Select a few projects or team members that might need a careful inspection, while other time logs do not need explicit approval.</p>
+    </div>
+    <div id="seventeen">
+        <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/61692ce83988430ca662abb6_Approve%20timesheets-p-1080.png">
+    </div>
+    <div id="eighteen">
+        <div>
+            <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fc4e6bd377fbe34a0cc7a0f_HIW-7-p-500.png">
+        </div>
+        <div>
+            <div id="eighteen1">
+                <h2>Keep clients in the loop with scheduled email reports</h2>
+                <p>Setting and downloading reports each month takes precious time. Save your report settings and have My Hours send it to you or your clients directly every period.</p>
+            </div>
+        </div>
+    </div>
+    <div id="nineteen">
+        <div>
+            <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fc4e6d0c755c679d71eda9f_HIW-8-p-500.png">
+        </div>
+        <div>
+            <div id="nineteen1">
+                <h2>Create invoices straight from your tracked hours</h2>
+                <p>No need for an additional tool that handles the invoicing. Calculate the billable amount for each client and generate a numbered invoice that can be sent via email straight away.</p>
+            </div>
+        </div>
+    </div>
+    <div id="twenty">
+        <div>
+            <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fc913df96a46f4b42ee4264_Roles-p-800.png">
+        </div>
+        <div>
+            <div id="twenty1">
+                <h2>Flexible, but simple access roles</h2>
+                <p>With a simple 3-role system, you’ll always know who sees what. You can hide costs and billable amounts from anyone, except account administrators.</p>
+            </div>
+        </div>
+    </div>
+    <div id="twentyone">
+        <div>
+            <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fc91420b5951fed1bb2a187_Chickens(1).png">
+        </div>
+        <div>
+            <div id="twentyone1">
+                <h2>Count your chickens and calculate your costs</h2>
+                <p>On top of billable rates, teams can add labor costs and expenses. Monitor your project costs with a (monthly) budget and calculate your profits or losses.</p>
+            </div>
+        </div>
+    </div>
+    <div id="twentytwo">
+        <div>
+            <div id="twentytwo1">
+                <h2>Sync your data with more than a 1000 tools</h2>
+                <p>Transfer clients, projects and tasks from Quickbooks and other solutions via Zapier. Documented API enables tech-savvy folks to build their own integrations</p>
+            </div>
+        </div>
+        <div>
+            <div id="twentytwo2">
+                <h2>Track time on the go with a mobile app</h2>
+                <p>Besides tracking time, add new projects, manage tasks and view reports - all through our mobile apps. Both iOS and Android are supported.</p>
+            </div>
+        </div>
+    </div>
+    <div id="twentythree">
+        <div>
+            <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fc9145d6e47e935f0570ff3_Integrations-p-500.png">
+        </div>
+        <div>
+            <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fd73713f912e4498947d1a3_HIW-mobile%20(1)(1)-p-500.png">
+        </div>
+    </div>
+    <div id="twentyfour">
+        <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fc4fa86e0322e7deff06f6e_Group%203.png">
+    </div>
+    <div id="twentyfive">
+        <h2>No, you cannot spy on your employees with My Hours</h2>
+        <p>My Hours does not record your or your employees’ screens. No screenshots, no apps tracked,<span>no employee monitoring.</span>  Of course, you are free to view work logs that your team members have entered.</p>
+
+    </div> 
+    <div id="twentysix">
+        <h1>Take a look at the complete list of features in My Hours.</h1>
+        <p>Or simply try it out: </p>
+    </div> 
+    <div class="third">
+        <button>Get Started - it's Free</button> 
+    </div>
+    <div id="twentyseven">
+        <p>Have questions? We're here</p>
+        <p>It's always nice to have someone to talk to when facing new software. Get in touch and we'll try our best to help you out.</p>
+        <!-- <p>Swish icon
+            EMAIL & LIVE CHAT
+            Swish icon
+            TRAINING FOR TEAMS
+            Swish icon
+            KNOWLEDGE BASE</p> -->
+    </div>
+    <div id="twentyeight">
+        <div>
+            <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/60993947b9ccc660783a8425_vectorpaint%20(1).svg" loading="lazy" 
+            height="15"
+             alt="Swish icon">
+       
+        </div>
+        <div >
+           <h6>EMAIL & LIVE CHAT</h6> 
+        </div>
+        <div>
+            <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/60993947b9ccc660783a8425_vectorpaint%20(1).svg" loading="lazy" height="15" alt="Swish icon">
+        
+        </div>
+        <div >
+           <h6>TRAINING FOR TEAMS</h6> 
+        </div>
+        <div>
+            <img src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/60993947b9ccc660783a8425_vectorpaint%20(1).svg" loading="lazy" height="15" alt="Swish icon">
+     
+        </div>
+        <div >
+           <h6>KNOWLEDGE BASE</h6> 
+        </div>
+    </div>
+
+    
+</body>
+</html>
