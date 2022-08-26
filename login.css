@@ -1,7 +1,8 @@
 #container{
     width: 760px;
-    height: 700px;
+    height: auto;
     margin: auto;
+    padding-bottom: 40px;
     /* border: 1px solid black; */
     margin-top: 150px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -62,16 +63,36 @@ label{
     font-style: initial;
 }
 
-#btn{
-    padding: 6px 30px;
+
+/* #btn{
+    padding: 6px 20px;
     font-size: large;
     border-radius: 6px;
     border: 0px;
     /* margin-top: 60px; */
+    /* color: #fff;
+    background-color: #3b8fc2;
+    border-color: #3b8fc2;
+    cursor: pointer; */
+/* } */ 
+#btn{
+    align-items: center;
+    margin: center;
+    /* margin-left: 40%; */
+    /* color: white; */
+    /* background-color: rgb(45, 95, 245); */
+    padding: 15px 23px;
+    font-size: large;
+    border-radius: 6px;
+    border: 0px;
+    margin-top: 3px;
     color: #fff;
     background-color: #3b8fc2;
     border-color: #3b8fc2;
     cursor: pointer;
+}
+#pass{
+    margin-top: 3px;
 }
 #btn:hover{
     background-color: #4582a7;
@@ -85,3 +106,109 @@ h4{
     color: #3b8fc2;
     
 }
+
+@media screen and (min-width: 481px) and (max-width: 769px) {
+    /* for medium screen*/
+    #container{
+        width: 481px;
+        height: 400px;
+    }
+    p{
+        font-size: 26px;
+    }
+    input{
+    
+        width: 80%;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid rgb(193, 210, 236);
+        text-indent: 8px;
+        font-size: small;
+    }
+    #formdiv div {
+        /* margin-bottom: 5%; */
+        padding: 3px;
+        /* margin: 6% auto; */
+    }
+    label{
+        font-size: small;
+    }
+    #term{
+        padding-left: 10px;
+        font-size: medium;
+        
+    }
+    #btn{
+        padding: 3px 7px;
+        /* padding-top: 3px; */
+        font-size: small;
+        border-radius: 5px;
+        margin-top: 10px;
+        border: 0px;
+        /* margin-top: 60px; */
+        color: #fff;
+        background-color: #3b8fc2;
+        /* border-color: #3b8fc2; */
+        
+    }
+    #pass{
+        /* margin-top: 5px; */
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+  /* for small screen */
+  #container{
+    width: 320px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    }
+    p{
+        font-size: 26px;
+    }
+    #formdiv{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+    input{
+
+        width: 80%;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid rgb(193, 210, 236);
+        text-indent: 8px;
+        font-size: small;
+    }
+    #formdiv div {
+        /* margin-bottom: 5%; */
+        padding: 3px;
+        /* margin: 6% auto; */
+    }
+    label{
+        font-size: small;
+    }
+    #term{
+        /* padding-left: 10px; */
+        font-size: medium;
+        
+    }
+    #btn{
+        padding: 3px 7px;
+        /* padding-top: 3px; */
+        font-size: small;
+        border-radius: 5px;
+        margin-top: 5px;
+        border: 0px;
+        /* margin-top: 60px; */
+        color: #fff;
+        background-color: #3b8fc2;
+        /* border-color: #3b8fc2; */
+        
+    }
+    #pass{
+        margin-top: 5px;
+        margin-right: 60px;
+        font-size: small;
+    }
+  }

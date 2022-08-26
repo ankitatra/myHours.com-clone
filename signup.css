@@ -1,6 +1,8 @@
 #container{
-    width: 800px;
+    width: 780px;
     height: 900px;
+    /* width: 35%; */
+
     margin: auto;
     /* border: 1px solid black; */
     margin-top: 150px;
@@ -11,7 +13,7 @@ body{
     font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 h3{
-    font-size: 40px;
+    font-size: 30px;
     font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #image{
@@ -19,29 +21,34 @@ h3{
     margin-left: 40px;
 }
 img{
-    width: 30%;
+    width: 50%;
     margin-top: 40px;
 }
 #formdiv{
     width: 100%;
-    padding-left: 50px;
-    padding-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px
+    /* padding-right: 40px; */
 }
 input{
     
+    /* width: 86%; */
     width: 86%;
     height: 45px;
     border-radius: 10px;
     border: 1px solid rgb(193, 210, 236);
     text-indent: 8px;
     font-size: large;
+    margin-left: 10px;
+    /* margin-right: 40px; */
 
 }
 #input:hover{
     border: 2px snow #3b8fc2 ;
 }
 #formdiv div {
-    margin-bottom: 5%;padding: 10px;
+    margin-bottom: 5%;
+    padding-top: 10px;
     /* margin: 6% auto; */
 }
 #para{
@@ -50,7 +57,7 @@ input{
     padding-top: 10px;
 }
 label{
-    padding-left: 10px;
+    padding-left: 8px;
     font-size: 16px;
 }
 #term{
@@ -77,3 +84,96 @@ label{
 #btn:hover{
     background-color: #4582a7;
 }
+@media screen and (min-width: 481px) and (max-width: 769px) {
+    /* for medium screen*/
+    #container{
+        width: 481px;
+        height: 600px;
+        margin: auto;
+        
+    }
+    h3{
+        font-size: 23px;
+    }
+    input{
+    
+        /* width: 86%; */
+        width: 83%;
+        height: 35px;
+        border-radius: 10px;
+        border: 1px solid rgb(193, 210, 236);
+        text-indent: 8px;
+        font-size: large;
+        margin-left: 0px;
+    
+    }
+    #para, #term{
+        font-size: medium;
+    }
+    label{
+        font-size: 12px;
+    }
+    #formdiv div {
+        margin-bottom: 3px;padding: 10px;
+        /* margin: 6% auto; */
+    }
+    img{
+        width: 30%;
+        margin-top: 40px;
+    }
+    #btn{
+        margin-top: 10px;
+        padding: 10px 15px;
+        font-size: small;
+    }
+  }
+
+
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+  /* for small screen */
+  #container{
+    width: 320px;
+    height: 480px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0) 0px 4px 12px;
+    margin-top: 10px;
+    border-radius: 6%;
+    background-color: transparent;
+}
+h3{
+    font-size: 17px;
+}
+#formdiv{
+    width: 100%;
+    padding-left: 30px;
+    /* padding-right: 40px; */
+}
+input{
+    /* width: 86%; */
+    width: 83%;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(193, 210, 236);
+    text-indent: 8px;
+    font-size: large;
+}
+    #para, #term{
+        font-size: small;
+    }
+    #para{
+        padding-top: 5px;
+    }
+    label{
+        font-size: 10px;
+    }
+    #formdiv div {
+        margin-bottom: 0.45px;
+        padding-right: 25px;
+        /* margin: 6% auto; */
+    }
+    #btn{
+        margin-top: 6px;
+        padding: 7px 9px;
+        font-size: small;
+    }
+  }

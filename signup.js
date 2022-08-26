@@ -29,9 +29,9 @@ document.querySelector('#btn').addEventListener('click', signUp)
         localStorage.setItem('user', JSON.stringify(obj))
     }
     console.log(obj)
-    name=document.getElementById('name').value=null
-    email=document.getElementById('email').value=null
-    password=document.getElementById('password').value=null
+    document.getElementById('name').value=null
+    document.getElementById('email').value=null
+    document.getElementById('password').value=null
     alert('signup successful')
     window.location.href="login.html"
  }
