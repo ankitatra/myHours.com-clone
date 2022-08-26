@@ -1,0 +1,283 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+p{
+  line-height: 1.2;
+  margin-bottom: 20px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+div {
+  display: block;
+}
+.chk{
+  width:22px;
+  height:22px
+}
+#p-content{
+  width:960px;
+  margin: auto;
+}
+.plan-cont{
+width: 730px;
+margin: auto;
+text-align: center;
+margin-bottom: 40px;
+}
+h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 100;
+  display: block;
+}
+h3{
+  color: #212529;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.plan-cont h1{
+  margin-bottom: 10px;
+  font-family: Helvetica, sans-serif;
+  color: #212529;
+  font-size: 72px;
+  /* font-weight: 00; */
+  text-align: center;
+  /* margin: 0.67em 0; */
+  margin-bottom: 20px;
+}
+.plan-cont h2{
+  margin-bottom: 20px;
+  font-family: 'Avenir Next',sans-serif;
+  color: #375d75;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+#fp-box{
+  max-width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.free, .pro{
+max-width: 420px;
+padding: 15px 15px;
+
+
+}
+.free>p{
+  color: #212529;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.pro>p{
+  color: #212529;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.prc{
+  display: flex;
+}
+.num1{
+  font-size: 50px;
+  margin-right: 20px;
+}
+.num1 strong{
+  font-size: 72px;
+}
+.num2{
+display: flex;
+align-items:center
+}
+li{
+  line-height: 40px;
+}
+ol{
+  margin-bottom: 20px;
+}
+#btn-pro{
+
+  margin-top: 15px;
+  width: 80%;
+  padding: 10px 20px;
+  border-color:#3b8fc2;
+  background-color: #3b8fc2;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.25;
+  transition: background-color .2s,border .2s,color .2s;
+  border-radius: 5px;
+}
+
+#btn-pro:hover{
+ 
+  border-color: #397294;
+  background-color: #397294;
+  color: #fff;
+}
+#btn-free{
+  margin-top: 15px;
+  width: 80%;
+  padding: 10px 20px;
+  border-color: black;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.25;
+  transition: background-color .2s,border .2s,color .2s;
+  border-radius: 5px;
+}
+
+#btn-free:hover{
+  border-color: #2cb1f0;
+  background-color: #3b8fc2;
+  color: #fff;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+
+  display: table;
+  /* border-collapse: separate; */
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 0;
+  border: none;
+  border-color: grey;
+  /* margin-bottom: 40px; */
+}
+
+
+.header_fixed {
+  /* max-height: 100vh; */
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+  margin-bottom: 100px;
+  /* border: 1px solid #dddddd; */
+}
+
+.header_fixed thead th {
+  font-weight: 400;
+  font-size: 25px;
+  /* text-align: left; */
+  padding-left: 2rem;
+}
+.track{
+  background-color: #f4f4f4;
+  font-weight: 500;
+  font-size: 17px;
+}
+th{
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+td {
+    border-top: 1px solid #f4f4f4;
+    display: table-cell;
+    vertical-align: inherit;
+    padding: 1rem 10px;
+    font-size: 16px;
+    text-align: center;
+}
+th{
+  text-align: center;
+}
+th:nth-child(1){
+  text-align: left;
+}
+td:nth-child(1){
+  text-align: left;
+}
+
+tr:hover td {
+  cursor: pointer;
+}
+.track1{
+  background-color: #f4f4f4;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+
+
+.accordion {
+  width: 62%;
+  margin: 0 auto;
+  overflow: hidden;
+  /* border-radius: 4px; */
+  font-family: Verdana, sans-serif;
+  margin-bottom: 90px;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* .accordion-header.active {
+  background-color: #1070b1;
+} */
+.accordion-header.active i {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-body {
+  padding: 0 1rem;
+  /* background-color: #f3f3f3; */
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-body.active {
+  max-height: 10rem;
+  padding: 1rem;
+}
+.accordion-header strong{
+  /* font-size: 16px;
+  font-weight: 200; */
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+i{
+  font-size: 30px;
+  color:darkgray
+}
+.accordion h2{
+  margin-bottom: 20px;
+  font-family: 'Avenir Next',sans-serif;
+  color: #375d75;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
