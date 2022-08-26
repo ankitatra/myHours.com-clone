@@ -10,7 +10,7 @@ function navbar() {
       </div>
       <div></div>
       <div>
-        <a href=""><p>How it works</p> </a>
+        <a href="./How_it_works.html"><p>How it works</p> </a>
       </div>
       <div>
         <a href=""><p>Use cases</p></a>
@@ -19,7 +19,7 @@ function navbar() {
         <a href=""><p>Pricing</p></a>
       </div>
       <div>
-        <a href=""><p>Support</p></a>
+        <a href="./Support.html"><p>Support</p></a>
       </div>
       <div>
         <a href="./login.html"><p>Sign in</p></a>

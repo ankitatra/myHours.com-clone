@@ -45,6 +45,9 @@
   color: white;
   padding: 15px 8px;
 }
+#childnavbar button:hover{
+  background-color: #34739a;
+}
 #childnavbar img {
   width: 90%;
   height: 100%;
