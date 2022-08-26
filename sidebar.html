@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+</head>
+<style>
+    body{
+        position: relative;
+    }
+     
+    #first1{
+        display:flex;
+        /* border: 1px solid red; */
+        background-color: #F8F9FA;
+        height:8vh;
+        width:18vw;
+        position:fixed;
+        top:-4px
+       
+    }
+    #first1>div{
+        /* border: 1px solid blue; */
+        margin-top:5px;
+    }
+    #first>#first1>#first11{
+        margin-top:20px;
+        margin-left: 20px;
+    }
+    #first>#first1>#first11{
+        /* margin-top:20px; */
+        margin-right: 20px;
+    }
+    #img1{
+        width:15px;
+        margin-right: 20px;
+        margin-top:-10px;
+    }
+    #first{
+        height:95vh;
+        width:18vw;
+        /* border: 1px solid #0d88e6f0;; */
+        overflow-y:auto;
+        overflow-x:hidden;
+        background-color: #F8F9FA;
+        color:#3c4043e9;
+        /* margin-top: 40px; */
+        /* position: relative;
+        top:40px */
+      
+    }
+       
+   
+   
+    #second1{
+        display:flex;
+        /* border: 1px solid red; */
+        height:8vh;
+        width:100%;
+        margin-top:10px;
+    }
+    #second1>div{
+        /* border: 1px solid blue; */
+        /* margin: auto; */
+        font-size: larger;
+    }
+    #first>#second1>#second11{
+        margin-top:20px;
+        margin-right: 20px;
+    }
+    #img1{
+        width:15px;
+        margin-right: 20px;
+        margin-top:-10px;
+    }
+    #third1{
+        display:flex;
+       /* border: 1px solid red; */
+        height:8vh;
+        width:100%;
+        margin-top:10px;
+    }
+    #third1>div{
+        /* border: 1px solid blue; */
+        /* margin: auto; */
+        font-size: larger;
+    }
+    #first>#third1>#third11{
+        margin-top:20px;
+        margin-right: 20px;
+    }
+    #img1{
+        width:15px;
+        margin-right: 20px;
+        margin-top:-10px;
+    }
+    #fourth1{
+        display:flex;
+        /* border: 1px solid red; */
+        height:8vh;
+        width:100%;
+        margin-top:10px;
+    }
+    #fourth1>div{
+        /* border: 1px solid blue; */
+        /* margin: auto; */
+        font-size: larger;
+    }
+    #first>#fourth1>#fourth11{
+        margin-top:20px;
+        margin-right: 20px;
+    }
+    #first>#fourth1>#fourth12{
+        width: 70%;
+    }
+    #img1{
+        width:15px;
+        margin-right: 20px;
+        margin-top:-10px;
+    }
+    #fourth13>img{
+        width:20px;
+        padding-top: 20px;
+    }
+    #fifth1{
+        display:flex;
+        /* border: 1px solid red; */
+        height:8vh;
+        width:100%;
+        margin-top:10px;
+    }
+    #fifth1>div{
+        /* border: 1px solid blue; */
+        /* margin: auto; */
+        font-size: larger;
+    }
+    #first>#fifth1>#fifth11{
+        margin-top:20px;
+        margin-right: 20px;
+    }
+    #first>#fifth1>#fifth12{
+        width: 70%;
+    }
+    #img1{
+        width:15px;
+        margin-right: 20px;
+        margin-top:-10px;
+    }
+    #fifth13>img{
+        width:20px;
+        padding-top: 20px;
+    }
+    #sixth1{
+        display:flex;
+        /* border: 1px solid red; */
+        height:8vh;
+        width:100%;
+        margin-top:10px;
+    }
+    #sixth1>div{
+        /* border: 1px solid blue; */
+        /* margin: auto; */
+        font-size: larger;
+    }
+    #first>#sixth1>#sixth11{
+        margin-top:20px;
+        margin-right: 20px;
+    }
+    #first>#sixth1>#sixth12{
+        width: 70%;
+    }
+    #img1{
+        width:15px;
+        margin-right: 20px;
+        margin-top:-10px;
+    }
+    #sixth13>img{
+        width:20px;
+        padding-top: 20px;
+    }
+    #seventh{
+        height:22vh;
+        width:100%;
+        /* border:1px solid red; */
+        background-color:#DCEEFA;
+        margin-top:20px;
+        font-size:20px;
+    }
+    #seventh>p:nth-child(2){
+        font-size:larger;
+        margin-top:-15px;
+        color:black
+    }
+    #eighth1{
+        display:flex;
+        /* border: 1px solid red; */
+        height:8vh;
+        width:100%;
+        margin-top:2px;
+    }
+    #eighth1>div{
+        /* border: 1px solid blue; */
+        /* margin: auto; */
+        font-size: larger;
+    }
+    #first>#eighth1>#eighth11{
+        margin-top:20px;
+        margin-right: 20px;
+    }
+    #first>#eighth1>#eighth12{
+        width: 70%;
+    }
+    #img1{
+        width:15px;
+        margin-right: 20px;
+        margin-top:-10px;
+    }
+    #nineth1{
+        display:flex;
+        /* border: 1px solid red; */
+        height:8vh;
+        width:100%;
+        margin-top:2px;
+    }
+    #nineth1>div{
+        /* border: 1px solid blue; */
+        /* margin: auto; */
+        font-size: larger;
+    }
+    #first>#nineth1>#nineth11{
+        margin-top:20px;
+        margin-right: 20px;
+    }
+    #first>#nineth1>#nineth12{
+        width: 70%;
+    }
+    #img1{
+        width:15px;
+        margin-right: 20px;
+        margin-top:-10px;
+    }
+
+    #tenth1{
+        display:flex;
+        /* border: 1px solid red; */
+        height:8vh;
+        width:100%;
+        margin-top:2px;
+    }
+    #tenth1>div{
+        /* border: 1px solid blue; */
+        /* margin: auto; */
+        font-size: larger;
+    }
+    #first>#tenth1>#tenth11{
+        margin-top:20px;
+        margin-right: 20px;
+    }
+    #first>#tenth1>#tenth12{
+        width: 70%;
+    }
+    #img1{
+        width:15px;
+        margin-right: 20px;
+        margin-top:-10px;
+    }
+    @media only screen  and (max-width:900px) and (min-width:481px){
+      #first{
+        width:50vw
+      } 
+      #first1{
+        width:50vw;
+      }
+    }
+    @media only screen and (min-width:320px) and (max-width:480px) {
+        #first{
+        width:50vh
+      } 
+      #first1{
+        width: 50vh;
+      }
+    }
+</style>
+<body>
+    <div id="first1"> 
+        <div id="first11">
+            <img id="img1" src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/344/external-dots-interface-royyan-wijaya-detailed-outline-royyan-wijaya.png">
+        </div>
+        <div id="first12">
+            <img  id="img2" src="https://app.myhours.com/assets/myhours_app_logo_icon.svg">
+        </div>
+    </div>
+    <div id="first">
+       
+        <div id="second1"> 
+            <div id="second11">
+                <img id="img1" src="https://img.icons8.com/fluency-systems-regular/2x/clock-arrow.png">
+            </div>
+            <div id="second12">
+                <p>Track</p>
+            </div>
+        </div>
+        <div id="third1"> 
+            <div id="third11">
+                <img id="img1" src="https://img.icons8.com/material-outlined/2x/shopping-bag.png">
+            </div>
+            <div id="third12">
+                <p>Projects</p>
+            </div>
+        </div>
+        <div id="fourth1"> 
+            <div id="fourth11">
+                <img id="img1" src="https://img.icons8.com/material/344/combo-chart--v1.png">
+            </div>
+            <div id="fourth12">
+            <p>Reports</p>
+             </div>
+             <div id="fourth13">
+                <img src="https://image.shutterstock.com/image-vector/arrow-down-260nw-366984632.jpg"> 
+             </div>
+        </div>
+        <div id="fifth1"> 
+            <div id="fifth11">
+                <img id="img1" src="https://img.icons8.com/fluency-systems-regular/2x/symlink-file.png">
+            </div>
+            <div id="fifth12">
+            <p>Clients</p>
+             </div>
+             <div id="fifth13">
+                <img src="https://image.shutterstock.com/image-vector/arrow-down-260nw-366984632.jpg"> 
+             </div>
+        </div>
+        <div id="sixth1"> 
+            <div id="sixth11">
+                <img id="img1" src="https://img.icons8.com/ios-glyphs/2x/people-skin-type-7.png">
+            </div>
+            <div id="sixth12">
+            <p>Team</p>
+             </div>
+             <div id="sixth13">
+                <img src="https://image.shutterstock.com/image-vector/arrow-down-260nw-366984632.jpg"> 
+             </div>
+        </div>
+        <div id="seventh">
+            <p>Pro trial expires in 11 days.</p>
+            <p>Keep/leave the Pro</p>
+        </div>
+        <div id="eighth1"> 
+            <div id="eighth11">
+                <img id="img1" src="https://img.icons8.com/windows/2x/help.png">
+            </div>
+            <div id="eighth12">
+            <p>Help</p>
+            </div>
+        </div>
+        <div id="nineth1"> 
+            <div id="nineth11">
+                <img id="img1" src="https://img.icons8.com/ios-glyphs/2x/iphone.png">
+            </div>
+            <div id="nineth12">
+            <p>Apps</p>
+            </div>
+        </div>
+        <div id="tenth1"> 
+            <div id="tenth11">
+                <img id="img1" src="https://img.icons8.com/material-two-tone/2x/bell.png">
+            </div>
+            <div id="tenth12">
+            <p>What's new</p>
+            </div>
+        </div>
+        
+       
+        
+    </div>
+</body>
+</html>
+<script>
+    let fourth=document.getElementById("fourth1")
+    let fourth12=document.getElementById("fourth12")
+    fourth.addEventListener("click",fourthh)
+    let count=0
+    function fourthh(){
+        count++
+        if(count==1){
+        console.log("hii")
+        fourth.style.backgroundColor="#DCEEFA"
+        fourth.style.height="35vh"
+       let p1=document.createElement("p")
+       p1.innerText="Dashboard"
+       p1.style.fontSize="15px"
+       let p2=document.createElement("p")
+       p2.innerText="Activity"
+       p2.style.fontSize="15px"
+       let p3=document.createElement("p")
+       p3.innerText="Team Pivot"
+       p3.style.fontSize="15px"
+       let p4=document.createElement("p")
+       p4.innerText="Economy"
+       p4.style.fontSize="15px"
+       fourth12.append(p1,p2,p3,p4)
+        }
+    }
+   
+
+    let fifth=document.getElementById("fifth1")
+    let fifth12=document.getElementById("fifth12")
+    fifth.addEventListener("click",fifthh)
+    let coun=0
+    function fifthh(){
+        coun++
+        if(coun==1){
+        console.log("hii")
+        fifth.style.backgroundColor="#DCEEFA"
+        fifth.style.height="28vh"
+       let p1=document.createElement("p")
+       p1.innerText="Team member"
+       p1.style.fontSize="15px"
+       let p2=document.createElement("p")
+       p2.innerText="Teams"
+       p2.style.fontSize="15px"
+       let p3=document.createElement("p")
+       p3.innerText="Uninvoiced"
+       p3.style.fontSize="15px"
+
+       fifth12.append(p1,p2,p3)
+        }
+    }
+
+    let sixth=document.getElementById("sixth1")
+    let sixth12=document.getElementById("sixth12")
+    sixth.addEventListener("click",sixthh)
+    let cou=0
+    function sixthh(){
+        cou++
+        if(cou==1){
+        console.log("hii")
+        sixth.style.backgroundColor="#DCEEFA"
+        sixth.style.height="28vh"
+       let p1=document.createElement("p")
+       p1.innerText="Team member"
+       p1.style.fontSize="15px"
+       let p2=document.createElement("p")
+       p2.innerText="Teams"
+       p2.style.fontSize="15px"
+       sixth12.append(p1,p2)
+        }
+    }
+</script>
