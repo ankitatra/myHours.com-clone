@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Team Members</title>
+    <link rel="stylesheet" href="./styles/addteamember.css">
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <div id="addmember">
+      <h1>Add New Team Member</h1>
+      <label for="">Name</label> <br />
+      <input type="text" placeholder="Enter name" id="name" />
+      <br />
+      <label for="">Email</label> <br />
+      <input type="email" placeholder="Enter email" id="email" /> <br />
+      <label for="">Client</label> <br />
+      <select name="" id="access">
+        <option value="">Give access as...</option>
+        <option value="Admin">Admin</option>
+        <option value="Manager">Member</option>
+        <option value="Normal">Normal</option>
+      </select>
+      <br />
+
+      <button onclick="addTeam()">Add member</button>
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/addteammembers.js"></script>

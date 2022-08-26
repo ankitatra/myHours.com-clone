@@ -1,0 +1,45 @@
+#addmember {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 45%;
+  color: #6c757d;
+}
+#addmember > h1 {
+  color: #375d75;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+}
+input {
+  font-size: 20px;
+  padding: 8px 0px;
+  padding-left: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.281);
+}
+label {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+select {
+  font-size: 20px;
+  color: #375d75;
+  border: 0.5px solid rgba(0, 0, 0, 0.281);
+
+  font-family: "Inter", sans-serif;
+  padding: 8px 0px;
+}
+#desc {
+  padding: 30px 0px;
+}
+#addmember > button {
+  font-size: 20px;
+  padding: 10px 0px;
+  background-color: #62b6eb;
+  font-family: "Inter", sans-serif;
+  color: white;
+  border: none;
+  border-radius: 9px;
+}
+#addmember > button:hover {
+  background-color: #346a8b;
+}

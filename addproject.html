@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Project</title>
+    <link rel="stylesheet" href="./styles/addprojects.css" />
+  </head>
+  <body>
+    <h1 id="month"></h1>
+    <div>
+      <hr />
+    </div>
+    <div id="newproject">
+      <h1>Add Project</h1>
+      <label for="">Name</label> <br />
+      <input type="text" placeholder="Enter name of the project" id="name" />
+      <br />
+      <label for="">Client</label> <br />
+      <select name="" id="client">
+        <option value="">Select...</option>
+        <option value="Top Of the level">Top Of the level</option>
+        <option value="Value seeker">Value seeker</option>
+        <option value="Premium buyers">Premium buyers</option>
+      </select>
+      <br />
+      <label for="">Description</label> <br />
+      <input type="text" placeholder="" id="desc" /> <br />
+      <button onclick="addNew()">Create project</button>
+    </div>
+  </body>
+</html>
+<script src="./scripts/addproject.js"></script>
