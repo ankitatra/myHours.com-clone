@@ -1,0 +1,35 @@
+#proj > h1 {
+  color: #375d75;
+  font-family: "Inter", sans-serif;
+}
+table {
+  width: 95%;
+
+  margin: auto;
+  font-size: 20px;
+  color: #375d75;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+}
+
+thead tr th {
+  border-bottom: 3px solid gray;
+
+  font-size: 16px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+tbody td {
+  text-align: center;
+  border-bottom: 00000000.1px solid rgba(0, 0, 0, 0.269);
+}
+
+#nnproject {
+  font-size: 20px;
+  text-align: end;
+  font-family: "Inter", sans-serif;
+}
+#nnproject a {
+  color: #4da9e2;
+}

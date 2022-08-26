@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How it works</title>
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
 </head>
 <style>
     #first{
@@ -766,6 +768,7 @@
     }
 </style>
 <body>
+    <div id="navbardiv"></div>
     <div id="first">
        <h1>How it works</h1> 
        <h2>& why you should switch to My Hours</h2>
@@ -944,6 +947,15 @@
         </div>
     </div>
 
+    <footer id="footer"></footer>
     
 </body>
 </html>
+
+<script type="module">
+    import navbar from "./components/navbar.js";
+    document.getElementById("navbardiv").innerHTML = navbar();
+  
+    import footer from "./components/footer.js";
+    document.getElementById("footer").innerHTML = footer();
+  </script>

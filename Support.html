@@ -1,190 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Support</title>
-</head>
-<style>
-    #first{
-        height:fit-content;
-        width:80vw;
-        border: 1px solid red;
-        margin-left:5vw;
-        /* margin-bottom:20vh; */
-        margin-top:15vh;
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+  </head>
+  <style>
+    #first {
+      height: fit-content;
+      width: 80vw;
+      /* border: 1px solid red; */
+      margin-left: 5vw;
+      /* margin-bottom:20vh; */
+      margin-top: 15vh;
     }
-    #first>h1{
-        color: #212529;
-        font-size:350%;
-        /* font-size: xx-large; */
-        
+    #first > h1 {
+      color: #212529;
+      font-size: 350%;
+      /* font-size: xx-large; */
     }
-    #first>#p1{
-        color:#375D75;
-        font-size:200%;
+    #first > #p1 {
+      color: #375d75;
+      font-size: 200%;
     }
-   
-    #first>#p2{
-       color:#3C4043;
-       font-size:x-large;
-    }
-    #first>#p2>span{
-        text-decoration: underline;
-        color:#35B4F1;
-    }
-    #second{
-        height:90vh;
-        width:75vw;
-        /* border: 1px solid red; */
-        margin: auto;
-        margin-left:12vw;
-        margin-bottom: 20vh;
-    }
-    #third{
-        height:10vh;
-        width:80vw;
-        margin-left:8vw;
-    }
-    #fourth{
-        height:110vh;
-        width:90vw;
-        /* border:1px solid red; */
-        margin-left:5vw;
-    }
-    #fourth>h2{
-        color:#375D75;
-        font-size:200%;
-      }
-    input[type=text], select {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
 
+    #first > #p2 {
+      color: #3c4043;
+      font-size: x-large;
     }
-    select{
-        color:#212529
+    #first > #p2 > span {
+      text-decoration: underline;
+      color: #35b4f1;
+    }
+    #second {
+      height: 90vh;
+      width: 75vw;
+      /* border: 1px solid red; */
+      margin: auto;
+      margin-left: 12vw;
+      margin-bottom: 20vh;
+    }
+    #third {
+      height: 10vh;
+      width: 80vw;
+      margin-left: 8vw;
+    }
+    #fourth {
+      height: 110vh;
+      width: 90vw;
+      /* border:1px solid red; */
+      margin-left: 5vw;
+    }
+    #fourth > h2 {
+      color: #375d75;
+      font-size: 200%;
+    }
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    select {
+      color: #212529;
     }
     input:focus {
-	outline: none;
-  	border: 1px solid #3D90C2;
+      outline: none;
+      border: 1px solid #3d90c2;
     }
-    #box2{
-        padding-bottom:30px ;  
+    #box2 {
+      padding-bottom: 30px;
     }
-  
-    #fourth>button{
-        background-color:#3D90C2;
-        width:8%;
-        height:6%;
-        border: 0;
-        border-radius:20px;
-        color:white;
-        font-size:medium;
-    }
-    #fourth>button:hover{
-        background-color: #397294;
-    }
-    #robot{
-        height:10%;
-        width:30%;
-        border: 1px solid rgba(0, 0, 0, 0.17);
-        display: flex;
-        margin-bottom:5vh;
-    }
-    label{
-        color:rgba(0, 0, 0, 0.17);
-    }
-    #robot>div{
-        /* border: 1px solid green; */
-        height:100%;
-        width: 33%;
-        /* margin: auto; */
-    }
-    #robot>#robot1{
-        /* border: 1px solid green; */
-        height:100%;
-        width:15%;
-        /* margin: auto; */
-    }
-    #robot>#robot2{
-        /* border: 1px solid green; */
-        height:100%;
-        width:40%;
-        margin-right:15%; 
-    }
-    #robot>#robot1>div{
-        height:20%;
-        width:30%;
-        border: 1px solid rgba(0, 0, 0, 0.17);
-        margin-top:45%;
-        margin-left:10%;
 
+    #fourth > button {
+      background-color: #3d90c2;
+      width: 8%;
+      height: 6%;
+      border: 0;
+      border-radius: 20px;
+      color: white;
+      font-size: medium;
     }
-    #robot>#robot3>img{
-        width: 90%;
-        height: 90%;
+    #fourth > button:hover {
+      background-color: #397294;
     }
-</style>
-<body>
+    #robot {
+      height: 10%;
+      width: 30%;
+      border: 1px solid rgba(0, 0, 0, 0.17);
+      display: flex;
+      margin-bottom: 5vh;
+    }
+    label {
+      color: rgba(0, 0, 0, 0.17);
+    }
+    #robot > div {
+      /* border: 1px solid green; */
+      height: 100%;
+      width: 33%;
+      /* margin: auto; */
+    }
+    #robot > #robot1 {
+      /* border: 1px solid green; */
+      height: 100%;
+      width: 15%;
+      /* margin: auto; */
+    }
+    #robot > #robot2 {
+      /* border: 1px solid green; */
+      height: 100%;
+      width: 40%;
+      margin-right: 15%;
+    }
+    #robot > #robot1 > div {
+      height: 20%;
+      width: 30%;
+      border: 1px solid rgba(0, 0, 0, 0.17);
+      margin-top: 45%;
+      margin-left: 10%;
+    }
+    #robot > #robot3 > img {
+      width: 90%;
+      height: 90%;
+    }
+  </style>
+  <body>
+    <div id="navbardiv"></div>
     <div id="first">
-        <h1>We're here</h1>
-        <p id="p1">We typically respond in less than 24 hours on business days. Contact us via email, live chat or the form below.</p>
-        <p id="p2"><span>Read our help guides</span> or send us a message to get detailed help.</p>
+      <h1>We're here</h1>
+      <p id="p1">
+        We typically respond in less than 24 hours on business days. Contact us
+        via email, live chat or the form below.
+      </p>
+      <p id="p2">
+        <span>Read our help guides</span> or send us a message to get detailed
+        help.
+      </p>
     </div>
     <div id="second">
-        <iframe src="https://share.descript.com/embed/Wy9xHyM18c8" width="781" height="440" frameborder="0" allowfullscreen></iframe>
+      <iframe
+        src="https://share.descript.com/embed/Wy9xHyM18c8"
+        width="781"
+        height="440"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
     </div>
     <div id="third">
-        <hr>
+      <hr />
     </div>
     <div id="fourth">
-        <h2>What do you need help with?</h2>
-        <select id="box1" >
-            <option value="I have a question before signing up...">I have a question before signing up...</option>
-            <option value="I can't access my account...">I can't access my account...</option>
-            <option value="Something might be broken...">Something might be broken...</option>
-            <option value="I'd like to request a feature...">I'd like to request a feature...</option>
-            <option value="I have a billing question...">I have a billing question...</option>
-            <option value="Other">Other</option>
-          </select>
-        <label>Message</label>
-        <input id="box2" type="text" placeholder="What's your issue or questions?">
-        <label>Name</label>
-        <input type="text" id="box3" placeholder="Enter your name">
-        <label>Email Address</label>
-        <input type="text" id="box4" placeholder="Enter your email address">
-        <div id="robot">
-            <div id="robot1">
-                <div id="check"></div>
-            </div>
-            <div id="robot2">
-                <p>I'm not a robot</p>
-            </div>
-            <div id="robot3">
-            <img src="data:image/png;base64,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">
-            </div>
+      <h2>What do you need help with?</h2>
+      <select id="box1">
+        <option value="I have a question before signing up...">
+          I have a question before signing up...
+        </option>
+        <option value="I can't access my account...">
+          I can't access my account...
+        </option>
+        <option value="Something might be broken...">
+          Something might be broken...
+        </option>
+        <option value="I'd like to request a feature...">
+          I'd like to request a feature...
+        </option>
+        <option value="I have a billing question...">
+          I have a billing question...
+        </option>
+        <option value="Other">Other</option>
+      </select>
+      <label>Message</label>
+      <input
+        id="box2"
+        type="text"
+        placeholder="What's your issue or questions?"
+      />
+      <label>Name</label>
+      <input type="text" id="box3" placeholder="Enter your name" />
+      <label>Email Address</label>
+      <input type="text" id="box4" placeholder="Enter your email address" />
+      <div id="robot">
+        <div id="robot1">
+          <div id="check"></div>
         </div>
-        <button>Send</button>
+        <div id="robot2">
+          <p>I'm not a robot</p>
+        </div>
+        <div id="robot3">
+          <img
+            src="data:image/png;base64,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"
+          />
+        </div>
+      </div>
+      <button>Send</button>
     </div>
-   
-</body>
+
+    <footer id="footer"></footer>
+  </body>
 </html>
+<script type="module">
+  import navbar from "./components/navbar.js";
+  document.getElementById("navbardiv").innerHTML = navbar();
+
+  import footer from "./components/footer.js";
+  document.getElementById("footer").innerHTML = footer();
+</script>
 <script>
-    let check=document.getElementById("check")
-    check.addEventListener("click",chceklist);
-    function chceklist(){
-        console.log("hello")
-        let tick=document.createElement("img")
-        tick.src="https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/60993947b9ccc660783a8425_vectorpaint%20(1).svg" 
-        tick.style.height="150%"
-        check.style.border="0"
-        
-        check.append(tick)
-    }
+  let check = document.getElementById("check");
+  check.addEventListener("click", chceklist);
+  function chceklist() {
+    console.log("hello");
+    let tick = document.createElement("img");
+    tick.src =
+      "https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/60993947b9ccc660783a8425_vectorpaint%20(1).svg";
+    tick.style.height = "150%";
+    check.style.border = "0";
+
+    check.append(tick);
+  }
 </script>
