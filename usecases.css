@@ -1,0 +1,108 @@
+#head-line{
+    /* margin-top: 200px; */
+    text-align: center;
+    line-height: 25px;
+    width: 80%;
+    margin: auto;
+    
+}
+#head-line>p:nth-child(1){
+
+    font-size: 70px;
+    /* margin-top: 200px; */
+}
+
+#head-line>p:nth-child(2){
+    font-size: 50px;
+    color: #375d75;
+}
+#head-line>p:nth-child(3){
+    font-size: 31px;
+    line-height: 40px;
+}
+#head-line>button{
+    padding: 15px 30px;
+    font-size: 25px;
+    background-color: #3b8fc2;
+    color: white;
+    border: 0px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+#box-container{
+    display: grid;
+    width: 85%;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(3,auto); */
+    gap: 35px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 150px;
+}
+#box-container>div{
+    
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#box-container>div>img{
+    height: 300px;
+    width: 300px;
+    /* padding-left: 15%; */
+    margin: 20px 50px;
+}
+#box-container>div>h1{
+    padding-left: 30px;
+}
+#box-container>div>p{
+    padding-left: 30px;
+    font-size: 20px;
+}
+#text-heading{
+    text-align: center;
+    margin-top: 150px;
+    /* color: #375d75; */
+}
+#text-heading>h1{
+    color: #375d75;
+}
+#reviews{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+#arrow{
+    width: 30px;
+   
+}
+#more-review{
+    font-size: 30px;
+    text-decoration: underline;
+    color: #375d75;
+   
+    text-align: center;
+}
+
+@media all and (min-width:320px) and (max-width:480px){
+    #box-container{
+        /* width: 90%; */
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #reviews{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+
+@media all and (min-width:481px) and (max-width:769px){
+    #box-container{
+        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}

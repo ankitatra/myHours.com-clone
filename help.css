@@ -1,0 +1,103 @@
+#top-section{
+    background-color: #3b8fc2;
+    height: 250px;
+}
+#logo{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+#logo>div>img{
+    width: 200px;
+}
+#home{
+    color: white;
+    font-weight: bold;
+}
+#description{
+width: 70%;
+margin: auto;
+margin-top: 15px;
+color: white;
+font-size: 30px;
+}
+#box{
+width: 70%;
+height: 60px;
+margin-left: 200px;
+margin-top: 10px;
+font-size: 20px;
+padding-left: 50px;
+border: 0;
+background-color: #62a5ce;
+}
+#box:hover{
+background-color: white;
+cursor: pointer;
+}
+#sep-box{
+display: flex;
+gap: 50px;
+}
+#container{
+width: 70%;
+margin: auto;
+margin-top: 70px;
+}
+#sep-box>div{
+border: 1px solid transparent;
+}
+#articles{
+display: flex;
+
+}
+#articles>img{
+border-radius: 50%;
+width: 50px;
+height: 50px;
+}
+#title>p:nth-child(1){
+color: #4d99c7;
+font-size: 16px;
+font-weight: bold;
+}
+#flex-container{
+margin-top: 50px;
+width: 100%;
+border: 1px solid transparent;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#white-container{
+background-color: gray;
+color: black;
+height: 200px;
+width: 100%;
+margin-top: 400px;
+margin: auto;
+border: 1px solid transparent;
+}
+#white-container>img{
+    width: 200px;
+    padding: 50px 50px 50px 350px;
+}
+#option-to-choose{
+    
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#twitter-logo{
+    
+    width: 40px;
+}
+#social-media-logo{
+    margin-top: 30px;
+    width: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
