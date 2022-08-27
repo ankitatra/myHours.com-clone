@@ -16,7 +16,7 @@ function navbar() {
         <a href=""><p>Use cases</p></a>
       </div>
       <div>
-        <a href=""><p>Pricing</p></a>
+        <a href="./pricing.html"><p>Pricing</p></a>
       </div>
       <div>
         <a href="./Support.html"><p>Support</p></a>
