@@ -21,6 +21,7 @@ p{
     margin-left: 31%;
     /* margin: auto; */
     margin: center;
+    cursor: pointer;
 }
 img{
     width: 40%;

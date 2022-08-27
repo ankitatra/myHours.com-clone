@@ -19,6 +19,7 @@ h3{
 #image{
     margin-top: 40px;
     margin-left: 40px;
+    cursor: pointer;
 }
 img{
     width: 50%;
