@@ -34,5 +34,6 @@ function signIn() {
 }
 
 document.getElementById('image').addEventListener('click', function(){
+    document.getElementById('image').style.cursor='pointer'
     window.location.href="index.html"
 })
