@@ -13,7 +13,7 @@ function navbar() {
         <a href="./How_it_works.html"><p>How it works</p> </a>
       </div>
       <div>
-        <a href=""><p>Use cases</p></a>
+        <a href="./usecases.html"><p>Use cases</p></a>
       </div>
       <div>
         <a href="./pricing.html"><p>Pricing</p></a>
