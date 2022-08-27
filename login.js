@@ -22,7 +22,7 @@ function signIn() {
                 userData.push(loginData)
                 localStorage.setItem('userdata', JSON.stringify(userData))
                 alert("login Successful")
-                window.location.href=''
+                window.location.href='sidebar.html'
                 break
             }else{
                 alert('Please Enter Correct Details')
@@ -34,5 +34,5 @@ function signIn() {
 }
 
 document.getElementById('image').addEventListener('click', function(){
-    window.location.href=""
+    window.location.href="index.html"
 })
