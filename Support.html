@@ -216,7 +216,10 @@
 <script>
   let check = document.getElementById("check");
   check.addEventListener("click", chceklist);
+  let count=0
   function chceklist() {
+    count++
+    if(count==1){
     console.log("hello");
     let tick = document.createElement("img");
     tick.src =
@@ -226,4 +229,5 @@
 
     check.append(tick);
   }
+}
 </script>
