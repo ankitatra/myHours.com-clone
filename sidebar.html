@@ -293,7 +293,7 @@
     #part>#page{
         height:95vh;
         width:80vw;
-        border:1px solid red;
+        /* border:1px solid red; */
         /* margin-left: 30vw; */
     }
 </style>
@@ -411,7 +411,8 @@
         console.log("hii")
         fourth.style.backgroundColor="#DCEEFA"
         fourth.style.height="35vh"
-       let p1=document.createElement("p")
+       let p1=document.createElement("a")
+       p1.setAttribute("href","projects.html")
        p1.innerText="Dashboard"
        p1.style.fontSize="15px"
        let p2=document.createElement("p")
@@ -465,11 +466,12 @@
         sixth.style.height="28vh"
        let p1=document.createElement("a")
        p1.setAttribute("href","addteammembers.html")
-       p1.innerText="add team member"
+       p1.innerText="Add Team Member"
        p1.style.fontSize="15px"
+       p1.style.marginBottom="30px"
        p1.setAttribute("id","d1")
        let p2=document.createElement("a")
-       p2.setAttribute("href","team.html")
+       p2.setAttribute("href","Teams.html")
        p2.innerText="Teams"
        p2.style.fontSize="15px"
        p2.setAttribute("id","d2")
