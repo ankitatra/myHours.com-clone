@@ -6,6 +6,34 @@ Cloned My Hours, where you can track all your work. Add a detailed description t
 
 ## [Deployed URL]( https://splendid-conkies-1f200f.netlify.app/)
 
+## Home Page
+![image](https://user-images.githubusercontent.com/61157473/202382508-403ea269-a6ae-43af-931a-27394746fb57.png)
+
+## Register Page
+![image](https://user-images.githubusercontent.com/61157473/202382761-4b8aeb45-5aa8-4b9f-a7d7-bafb27575a85.png)
+
+## Login Page
+![image](https://user-images.githubusercontent.com/61157473/202382939-2b35b405-37bb-43b7-87dc-fe51c3fe3dfa.png)
+
+## How it works page
+![image](https://user-images.githubusercontent.com/61157473/202383111-60b2de02-6e00-4b96-8406-ba17755d9f50.png)
+
+## Use cases
+![image](https://user-images.githubusercontent.com/61157473/202383305-5c4c8456-f66c-4c06-b0a7-8b0639a6f574.png)
+
+## Pricing Page
+![image](https://user-images.githubusercontent.com/61157473/202383478-ca86f086-13a2-47fe-ac00-39cf79d67519.png)
+
+## Support Page
+![image](https://user-images.githubusercontent.com/61157473/202383657-6da3453b-4198-4eb4-929d-94ef2ad35b91.png)
+
+## Add Product Page
+![image](https://user-images.githubusercontent.com/61157473/202384033-90b0b989-129b-4eea-8887-12387a64be1d.png)
+
+## Dashboard of project page
+![image](https://user-images.githubusercontent.com/61157473/202384355-cde125c8-8455-4241-a628-04da2c51c76d.png)
+
+
 <br/>
 <h3 align="center" >💻 Tech Stack</h3>
  <div align="center">
